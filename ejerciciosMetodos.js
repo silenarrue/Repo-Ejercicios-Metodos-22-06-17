@@ -201,6 +201,6 @@ describe("Retornar el producto de todo un arreglo",function(){
 var assert = require("assert");
 describe("Retornar los años de nacimiento de las edades mayores a 18",function(){
    it("Probando con este [20, 16, 89, 6] arreglo",function(){
-   assert.deepEqual([1997,,1928,], array6([20, 16, 89, 6]));
+   assert.deepEqual([1997,1928], array6([20, 16, 89, 6]));
    })
 });
