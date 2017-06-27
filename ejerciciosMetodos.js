@@ -142,6 +142,7 @@ function array6(ages){
 //document.write(years);
 
 
+
 //Pruebas unitarias 1
 
 var assert = require("assert");
@@ -203,4 +204,10 @@ describe("Retornar los años de nacimiento de las edades mayores a 18",function(
    it("Probando con este [20, 16, 89, 6] arreglo",function(){
    assert.deepEqual([1997,1928], array6([20, 16, 89, 6]));
    })
+});
+
+describe("Suma valores de un objeto",function(){
+   it("Probando con este objeto objeto{inicio: 1, fin: 10}",function(){
+   assert.equal(55, suma(1, 10));
+ });
 });
